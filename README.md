@@ -14,3 +14,6 @@ Trigger Factory Pattern is helpful in maintaining the code in one place, to foll
  - Querying Large Data Sets
 
 While there are benefits to using this kind of pattern, its side effects should also be considered. Please go through all the pros & cons before implementing this structure ([stackexchange discussion](https://salesforce.stackexchange.com/questions/101835/pros-and-cons-of-using-a-trigger-factory))
+
+<a href="https://githubsfdeploy.herokuapp.com?owner=NeuraFlash&repo=ApexTriggerFramework"><img alt="Deploy to Salesforce"
+     src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png"></a>
