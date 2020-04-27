@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>DisableTrigger__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Check this box to disable the trigger</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Disable Trigger</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ProfileTrigger__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <description>Profile|TriggerName</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Enter a Profile Name (Case sensitive) &apos;|&apos; and Trigger Name
+Either name can be replaced by &apos;*&apos; instead of a specific value</inlineHelpText>
+        <label>Profile.Trigger</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <label>Trigger Factory Override</label>
+    <listViews>
+        <fullName>All_Overrides</fullName>
+        <columns>DeveloperName</columns>
+        <columns>MasterLabel</columns>
+        <columns>ProfileTrigger__c</columns>
+        <columns>DisableTrigger__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Overrides</label>
+    </listViews>
+    <pluralLabel>Trigger Factory Overrides</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>
